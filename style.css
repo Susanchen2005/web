@@ -1,2 +1,11 @@
-body { background-color: pink;
-  color:blue
+body { background-color: #e6ffff;
+  color:#33adff;
+  padding-left: 1em
+}
+h1 { color:#ff9999; font-family: Marker Felt, fantasy; font-size: xxx-large; background-color:#ccffff;}
+h3 {font-family: Marker Felt, fantasy; color:#e699ff; background-color: #99ebff}
+ol {border: thick double #ffffcc; background-color: #e6fff7}
+p {color:#3385ff; font-family: "Gill Sans", sans-serif; line-height:1.5;}
+ul {font-family: "Gill Sans", sans-serif; border:solid; border-width: 0 4px 8px 12px; 
+	border-color: #ffe6ff; outline: dashed #ccccff;} 
+img { border: dashed ; border-color: gray; outline: dashed #ffe6e6}
