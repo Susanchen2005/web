@@ -19,12 +19,17 @@
   padding: 25px 20px;
   font-weight:bold;
   text-align: : center;
+  text-shadow: 1px 1px #99ffff
 }
 
 .navbar a:hover {
   background-color: #ffccff
 }
 
+ol {
+    border: thick double #ffffcc;
+    background-color: #e6fff7
+}
 body {
   background-color: #e6ffff;
   color:#33adff;
@@ -42,10 +47,7 @@ h3 {
   color:#e699ff;
   background-color: #99ebff
 }
-ol {
-  border: thick double #ffffcc;
-  background-color: #e6fff7
-}
+
 p {
   color:#3385ff;
    font-family: "Gill Sans", sans-serif;
@@ -66,3 +68,90 @@ p {
   font-size: 20px;
   background-color: white;
 }
+
+.whatisit {
+  background-color: #e6f5ff;
+  text-align: center;
+  padding: 10px
+  color:#3385ff;
+  font-family: "Gill Sans", sans-serif;
+  line-height:1.5;
+  font-size: 18px
+}
+
+.whatisit img {
+  margin: 1em;
+  max-width: 80%;
+}
+
+.firstborn{
+  color:#3385ff;
+   font-family: "Gill Sans", sans-serif;
+   line-height:1.5
+}
+
+
+.firstborn img{
+  border: dashed ;
+  border-color: gray;
+  outline: dashed #ffe6e6;
+  float:right;
+  max-width: 60%
+}
+
+.firstborn ul{
+  border: thick double #ffffcc;
+  background-color: #e6fff7;
+}
+
+.middlechild {
+  display:grid;
+  grid-template-columns: 20% 40% 35%;
+  font-family: "Gill Sans", sans-serif;
+  padding: 10px
+}
+
+.middlechild ul {
+  border:solid;
+  border-width: 0 4px 8px 12px;
+	border-color: #ffe6ff;
+  outline: dashed #ccccff;
+}
+
+.middlechild img {
+  border: dashed ;
+  border-color: gray;
+  outline: dashed #ffe6e6;
+  max-width: 95%
+}
+
+.why {
+  background-color: #e6fff9;
+  font-size: 20px
+}
+
+
+.picandchara {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 18px;
+}
+
+.picandchara ul {
+  border:solid;
+  border-width: 0 4px 8px 12px;
+	border-color: #ffe6ff;
+  outline: dashed #ccccff;
+  margin-right: 2em
+}
+
+.pics {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+}
+
+.pics img{
+  max-width: 100%;
+  border: dashed ;
+  border-color: gray;
+  outline: dashed #ffe6e6}
