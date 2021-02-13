@@ -80,7 +80,7 @@ p {
 }
 
 .whatisit img {
-  margin: 2em;
+  margin: 1em;
   max-width: 80%;
 }
 
@@ -96,7 +96,8 @@ p {
   border-color: gray;
   outline: dashed #ffe6e6;
   float:right;
-  max-width: 60%
+  max-width: 60%;
+  margin: 1em
 }
 
 .firstborn ul{
