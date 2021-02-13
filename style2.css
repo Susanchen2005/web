@@ -155,3 +155,23 @@ p {
   border: dashed ;
   border-color: gray;
   outline: dashed #ffe6e6}
+
+.firstborn table {
+  border: solid #ffcccc;
+  border-collapse: collapse;
+  padding: 15px;
+  text-align:center;
+  border-spacing: 5px;
+}
+
+.firstborn tr:nth-child(odd) {
+  background-color: #ffffcc
+}
+
+.firstborn th {
+  background-color: #ffffcc
+}
+.firstborn h5 {
+  color: #ffb3b3;
+}
+
