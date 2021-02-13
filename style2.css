@@ -80,7 +80,7 @@ p {
 }
 
 .whatisit img {
-  margin: 1em;
+  margin: 2em;
   max-width: 80%;
 }
 
@@ -132,9 +132,9 @@ p {
 
 
 .picandchara {
-  display: grid;
+  display: flex;
   grid-template-columns: 1fr 1fr;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .picandchara ul {
@@ -142,7 +142,10 @@ p {
   border-width: 0 4px 8px 12px;
 	border-color: #ffe6ff;
   outline: dashed #ccccff;
-  margin-right: 2em
+  margin: 2em;
+  padding: 2em;
+  font-family: "Gill Sans", sans-serif;
+  Font-size: 20px
 }
 
 .pics {
@@ -174,4 +177,3 @@ p {
 .firstborn h5 {
   color: #ffb3b3;
 }
-
